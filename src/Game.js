@@ -3,14 +3,14 @@ import setNumMoles from './setNumMoles'
 
 export default function Game(props) {
   const [score, setScore] = useState(0)
-  const [timeLeft, setTimeLeft] = useState(10)
+  const [timeLeft, setTimeLeft] = useState(30)
 
   const {setStart, difficulty} = props
 
   const moles = setNumMoles(difficulty, setScore)
 
   function handlePlayAgain() {
-    setTimeLeft(10)
+    setTimeLeft(30)
     setScore(0)
   }
 

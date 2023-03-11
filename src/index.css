@@ -1,4 +1,14 @@
-body { margin: 0; }
+body {
+    margin: 0;
+    min-height: 100vh;
+}
+
+#root {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .hills-container {
     display: grid;
@@ -21,6 +31,12 @@ body { margin: 0; }
 
 .mole-container {
     width: 100%;
+    max-width: 200px;
+}
+
+.mole-container button {
+    border: none;
+    background-color: inherit;
 }
 
 .mole-img {
