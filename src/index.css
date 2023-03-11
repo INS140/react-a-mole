@@ -1,1 +1,28 @@
 body { margin: 0; }
+
+.hills-container {
+    display: grid;
+    justify-content: center;
+    padding: 0.625rem;
+    gap: 0.625rem;
+}
+
+.medium {
+    grid: repeat(3, auto) / repeat(3, auto);
+}
+
+.easy {
+    grid: repeat(2, auto) / repeat(2, auto);
+}
+
+.hard {
+    grid: repeat(4, auto) / repeat(4, auto);
+}
+
+.mole-container {
+    width: 100%;
+}
+
+.mole-img {
+    width: 100%;
+}
