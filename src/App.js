@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import StartMenu from './Startmenu'
 import Game from './Game'
 
